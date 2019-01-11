@@ -70,7 +70,6 @@ class DuplicatesExportPipeline(object):
         if 'name' in item.keys() and 'url' in item.keys() and 'thumbnail_url' in item.keys():
             # Drops duplicates in shops
             if item['url'] in self.shop_seen:
-                print('Duplicate-Shop-found')
                 raise DropItem("Duplicate shop item found: %s" % item)
 
             else:
