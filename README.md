@@ -1,8 +1,15 @@
 # Spider Scrapy Ceneo
 
-Extracts the following data:
+### Crawl Start
+To run the crawl, type the command:
+```
+scrapy crawl ceneo
+```
 
-Category:
+
+Crawler extracts the following data:
+
+####Category:
 - id
 - name
 - parent category id
@@ -13,12 +20,12 @@ Product
 - thumbnail_url
 - url
 
-Shop:
+####Shop:
 - name
 - url
 - thumbnail_url
 
-Product price:
+####Product price:
 - shop_id
 - product_id
 - price
@@ -27,4 +34,5 @@ Product price:
 - score
 - review_count
 
+### Additional information
 Exports scraped data  in 4 json files in the folder /scraped
