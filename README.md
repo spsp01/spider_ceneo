@@ -9,7 +9,7 @@ scrapy crawl ceneo
 
 Crawler extracts the following data:
 
-####Category:
+#### Category:
 - id
 - name
 - parent category id
@@ -20,12 +20,12 @@ Product
 - thumbnail_url
 - url
 
-####Shop:
+#### Shop:
 - name
 - url
 - thumbnail_url
 
-####Product price:
+#### Product price:
 - shop_id
 - product_id
 - price
