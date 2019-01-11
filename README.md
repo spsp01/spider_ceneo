@@ -26,5 +26,5 @@ Product price:
 - product_url
 - score
 - review_count
-Exports scraped data  in 4 json files in the folder /scraped
 
+Exports scraped data  in 4 json files in the folder /scraped
