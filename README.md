@@ -14,7 +14,7 @@ Crawler extracts the following data:
 - name
 - parent category id
 
-Product
+#### Product
 - name
 - category_id
 - thumbnail_url
